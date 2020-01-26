@@ -24,7 +24,7 @@ export class OrderComponent implements OnInit {
     private currentRoute: ActivatedRoute,
     private customerService:CustomerService,
     private toastr:ToastrService) { }
-
+//Inicialização componentes...
   ngOnInit() {
 
     let orderID = this.currentRoute.snapshot.paramMap.get('id');
